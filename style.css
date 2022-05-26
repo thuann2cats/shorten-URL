@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    
+}
+
+main {
+    padding: 45px;
+    background-color: #0087de;
+    height: 500px;
+ 
+}
+
+header {
+    padding-top: 40px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+#enter-a-url * {
+    display: block;
+    margin: auto;
+
+}
+
+#enter-a-url label {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#enter-a-url input {
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 1px solid black;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#enter-a-url button {
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#enter-a-url button:hover {
+    background-color: #1f233e;
+    color: #0087de;
+    cursor: pointer;
+}
+
+#returned-url-box {
+    border: 2px solid white;
+    margin: auto;
+    width: 450px;
+    height: 100px;
+    color: white;
+    padding-top: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
